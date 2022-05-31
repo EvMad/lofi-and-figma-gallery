@@ -78,7 +78,8 @@ body {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .feature > img {
@@ -86,6 +87,11 @@ body {
     max-width: 60vw;
     object-fit: cover;
     border-radius: 7px;
+}
+
+.featureDesc {
+    display: flex;
+    flex-direction: column;
 }
 
 .featureTitle {
@@ -97,6 +103,7 @@ body {
 }
 
 .featureText {
+    text-align: center;
     color: var(--dark);
     font-size: 18px;
     line-height: 25px;
