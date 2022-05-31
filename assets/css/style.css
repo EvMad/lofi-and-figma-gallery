@@ -4,6 +4,13 @@
 
 :root {
     --dark: #0D0D0D;
+    --green: #0DD97A;
+    --blue: #1BCBF2;
+    --purple: #9857F2;
+    --red: #F24822;
+    --pink: #F26B5E;
+    --white: #F2F2F2;
+
 }
 
 body {}
