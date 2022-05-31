@@ -72,3 +72,9 @@ body {
     justify-content: center;
     padding: 20px;
 }
+
+.feature {
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
