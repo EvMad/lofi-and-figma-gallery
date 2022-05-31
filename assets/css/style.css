@@ -76,11 +76,28 @@ body {
 .feature {
     font-weight: 400;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 
 .feature > img {
     max-height: calc(100vh - 50px);
     max-width: 60vw;
+    object-fit: cover;
     border-radius: 7px;
+}
+
+.featureTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 28px;
+    color: var(--dark);
+}
+
+.featureText {
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 25px;
 }
