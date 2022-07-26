@@ -8,6 +8,6 @@ This repo will become a gallery for UX Design case studies, including wireframes
 
 ### Examples
 
-![sticker_sheet](RL_StickerSheet.png)
+![sticker_sheet](./assets/images/RL_StickerSheet.png)
 
-![color_scheme](RL_color_scheme(1).png)
+![color_scheme](./assets/images/RL_color_scheme%20(1).png)
