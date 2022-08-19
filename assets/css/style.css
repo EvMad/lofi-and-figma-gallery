@@ -87,7 +87,7 @@ body {
     justify-content: center;
 }
 
-.feature > img {
+.feature > a {
     /* max-height: calc(100vh - 50px);
     max-width: 60vw; */
     object-fit: cover;
