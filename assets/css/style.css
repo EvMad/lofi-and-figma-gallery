@@ -88,10 +88,12 @@ body {
 }
 
 .feature > img {
-    max-height: calc(100vh - 50px);
-    max-width: 60vw;
+    /* max-height: calc(100vh - 50px);
+    max-width: 60vw; */
     object-fit: cover;
-    border-radius: 7px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 .featureDesc {
