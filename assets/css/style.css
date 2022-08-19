@@ -49,6 +49,10 @@ body {
     cursor: pointer;
 }
 
+.topIcon:hover {
+    color: var(--red);
+}
+
 .topList {
     display: flex;
     justify-content: center;
