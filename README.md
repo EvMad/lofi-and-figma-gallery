@@ -4,7 +4,7 @@ Repo to display analog and digital lo-fi designs and prototypes for UX case stud
 
 ## ABOUT
 
-This repo will become a gallery for UX Design case studies, including wireframes, mockups, digital prototypes, etc.
+This repo is a gallery for sketches, wireframes, mockups, digital prototypes, and other analog artifacts.
 
 ### Examples
 
