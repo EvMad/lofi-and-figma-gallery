@@ -142,12 +142,15 @@ body {
     line-height: 25px;
 }
 
+
+/* hide nav links mobile */
 @media (max-width: 792px) {
     .topListItem > a {
         display: none;
     }
 }
 
+/* change flex direction desktop */
 @media (min-width: 1024px) {
     .container {
         flex-direction: row;
