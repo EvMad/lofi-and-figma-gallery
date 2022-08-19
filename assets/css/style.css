@@ -57,6 +57,7 @@ body {
     list-style: none;
 }
 
+
 .topListItem {
     margin-right: 20px;
     font-size: 18px;
@@ -67,6 +68,10 @@ body {
 .topListItem > a {
     text-decoration: none;
     color: inherit;
+}
+
+.topListItem > a:hover {
+    color: var(--pink);
 }
 
 .container {
