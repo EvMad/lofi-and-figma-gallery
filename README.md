@@ -6,8 +6,10 @@ Repo to display analog and digital lo-fi designs and prototypes for UX case stud
 
 This repo is a gallery for sketches, wireframes, mockups, digital prototypes, and other analog artifacts.
 
-### Examples
+### Screenshots
 
-![sticker_sheet](./assets/images/RL_StickerSheet.png)
+![mobile](./assets/images/iPhone12Pro.png)
 
-![color_scheme](./assets/images/RL_color_scheme%20(1).png)
+![tablet](./assets/images/iPad.png)
+
+![desktop](./assets/images/Desktop.png)
