@@ -101,6 +101,10 @@ body {
     background-color: var(--purple);
 }
 
+#green {
+    background-color: var(--green);
+}
+
 .featureDesc {
     display: flex;
     flex-direction: column;
