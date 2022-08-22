@@ -78,6 +78,15 @@ body {
     color: var(--pink);
 }
 
+#side {
+    height: 75vh;
+    width: 50vw;
+    padding-top: 50px;
+    position: fixed;
+    right: 0;
+    overflow: hidden;
+}
+
 .container {
     
     display: flex;
