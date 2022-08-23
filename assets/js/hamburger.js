@@ -1,10 +1,22 @@
-hamburger = () => {
-    document.querySelector('#ham').addEventListener("Click", function(e) {
-        e.preventDefault();
-        console.log("Hamburger clicked");
-        let menu = document.createElement('ul');
-        menu.setAttribute('id', 'menu-list');
-        document.querySelector('#side').append(menu);
+// document.querySelector('#ham').addEventListener("Click", function() {
+//     // e.preventDefault();
+//     console.log("Hamburger clicked");
+// });
+
+window.onload = function() {
+    console.log("document loaded");
+}
+
+
+
+
+// hamburger = () => {
+//     document.querySelector('#ham').addEventListener("Click", function(e) {
+//         e.preventDefault();
+//         console.log("Hamburger clicked");
+        // let menu = document.createElement('ul');
+        // menu.setAttribute('id', 'menu-list');
+        // document.querySelector('#side').append(menu);
 
         // populate = () => {
 
@@ -27,6 +39,6 @@ hamburger = () => {
         // }
 
         // populate();
-    })
-};
+//     })
+// };
 
