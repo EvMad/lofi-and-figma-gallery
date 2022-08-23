@@ -3,12 +3,14 @@
 //     console.log("Hamburger clicked");
 // });
 
-window.onload = function() {
-    console.log("document loaded");
-}
+// window.onload = function() {
+//     console.log("document loaded");
+// }
 
 const hamburger = document.querySelector("#ham");
-hamburger.addEventListener('click', function() {
+hamburger.addEventListener('click', (e) => {
+
+    e.preventDefault();
 
     console.log("hamburger clicked");
 
