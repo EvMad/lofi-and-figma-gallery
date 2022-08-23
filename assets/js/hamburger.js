@@ -18,11 +18,11 @@ hamburger.addEventListener('click', (e) => {
 
     let menu = document.createElement('li');
 
-     for (var i = 0; i < projects.length; i++) {
-                menu.querySelectorAll("li").innerHTML = [i];
-              };
+        document.querySelector('#side').appendChild(menu);
 
-              document.querySelector('#side').appendChild(menu);
+      //populate each <li> with string from projects array
+
+      
 
     
 
