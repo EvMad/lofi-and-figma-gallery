@@ -7,6 +7,22 @@ window.onload = function() {
     console.log("document loaded");
 }
 
+const hamburger = document.querySelector("#ham");
+hamburger.addEventListener('click', function() {
+
+    let projects = ["Analog", "Digital", "Case Studies"];
+
+    let menu = document.createElement('li');
+
+     for (var i = 0; i < projects.length; i++) {
+                menu.querySelectorAll("li").innerHTML = [i];
+              };
+
+    
+
+
+});
+
 
 
 
@@ -20,7 +36,7 @@ window.onload = function() {
 
         // populate = () => {
 
-        //     let projects = ["Analog", "Digital", "Case Studies"];
+        
 
         //     for (let element of projects) {
         //         projects[element] = projects[element] + 1;
@@ -30,9 +46,7 @@ window.onload = function() {
                 
         //     }
 
-        //     for (var i = 0; i < projects.length; i++) {
-        //         menu.querySelectorAll("li").innerHTML = [i];
-        //       }
+       
 
 
         //     menu.appendChild(projectName);
