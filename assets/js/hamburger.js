@@ -10,13 +10,15 @@ window.onload = function() {
 const hamburger = document.querySelector("#ham");
 hamburger.addEventListener('click', function() {
 
-    let projects = ["Analog", "Digital", "Case Studies"];
+    console.log("hamburger clicked");
 
-    let menu = document.createElement('li');
+    // let projects = ["Analog", "Digital", "Case Studies"];
 
-     for (var i = 0; i < projects.length; i++) {
-                menu.querySelectorAll("li").innerHTML = [i];
-              };
+    // let menu = document.createElement('li');
+
+    //  for (var i = 0; i < projects.length; i++) {
+    //             menu.querySelectorAll("li").innerHTML = [i];
+    //           };
 
     
 
