@@ -16,15 +16,15 @@ hamburger.addEventListener('click', (e) => {
 
     let projects = ["Analog", "Digital", "Case Studies"];
 
-    let menu = document.createElement('li');
-
+    for (i = 0; i < projects.length; i++) {
+        
+        var menu = document.createElement('li');
+        menu.innerText = projects[i];
         document.querySelector('#side').appendChild(menu);
-
-      //populate each <li> with string from projects array
-
-      
+    }
 
     
+
 
 
 });
