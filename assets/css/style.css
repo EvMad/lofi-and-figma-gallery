@@ -80,7 +80,7 @@ body {
 
 .sideBar {
     height: 75vh;
-    width: 50vw;
+    width: 30vw;
     padding-top: 50px;
     position: fixed;
     right: 0;
@@ -88,17 +88,20 @@ body {
     opacity: 0.9;
     display: flex;
     flex-direction: column;
-}
-
-#side > a {
     text-decoration: none;
     color: var(--dark);
     background-color: var(--white);
     font-family: 'Sawarabi Mincho', serif;
     font-size: medium;
-    text-align: left;
+    text-align: right;
+}
+
+.sideBar > ul {
+   list-style-type: none;
+    text-decoration: none;
 
 }
+
 
 .container {
     
