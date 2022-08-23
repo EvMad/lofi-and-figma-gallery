@@ -1,7 +1,3 @@
-// document.querySelector('#ham').addEventListener("Click", function() {
-//     // e.preventDefault();
-//     console.log("Hamburger clicked");
-// });
 
 // window.onload = function() {
 //     console.log("document loaded");
@@ -24,8 +20,6 @@ hamburger.addEventListener('click', (e) => {
     }
 
     
-
-
 
 });
 
