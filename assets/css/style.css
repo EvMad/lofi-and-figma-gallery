@@ -99,7 +99,12 @@ body {
 .sideBar > ul {
    list-style-type: none;
     text-decoration: none;
+    padding-right: 10px;
 
+}
+
+#side > li {
+    padding-top: 10px;
 }
 
 
