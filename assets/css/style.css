@@ -90,7 +90,6 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: var(--dark);
-    background-color: var(--white);
     font-family: 'Sawarabi Mincho', serif;
     font-size: medium;
     text-align: right;
