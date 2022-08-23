@@ -14,13 +14,15 @@ hamburger.addEventListener('click', (e) => {
 
     console.log("hamburger clicked");
 
-    // let projects = ["Analog", "Digital", "Case Studies"];
+    let projects = ["Analog", "Digital", "Case Studies"];
 
-    // let menu = document.createElement('li');
+    let menu = document.createElement('li');
 
-    //  for (var i = 0; i < projects.length; i++) {
-    //             menu.querySelectorAll("li").innerHTML = [i];
-    //           };
+     for (var i = 0; i < projects.length; i++) {
+                menu.querySelectorAll("li").innerHTML = [i];
+              };
+
+              document.querySelector('#side').appendChild(menu);
 
     
 
