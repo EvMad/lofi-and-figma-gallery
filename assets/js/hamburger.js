@@ -1,6 +1,7 @@
 hamburger = () => {
     document.querySelector('#ham').addEventListener("Click", function(e) {
         e.preventDefault();
+        console.log("Hamburger clicked");
         let menu = document.createElement('ul');
         menu.setAttribute('id', 'menu-list');
         document.querySelector('#side').append(menu);
