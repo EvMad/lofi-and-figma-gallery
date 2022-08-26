@@ -18,3 +18,21 @@ sketch.addEventListener('click', (e => {
     }
 
 }));
+
+
+const story = document.querySelector("#story");
+sketch.addEventListener('click', (e => {
+    e.preventDefault();
+
+    console.log("story clicked");
+
+    var target = document.getElementsByClassName('story');
+
+    if (target.style.display === "none") 
+    {
+        target.style.display = "block";
+    } else {
+        target.style.display = "none";
+    }
+
+}));
