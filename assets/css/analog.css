@@ -117,3 +117,54 @@ body {
     opacity: 1;
 }
 
+.feature {
+    font-weight: 400;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature > a {
+    /* max-height: calc(100vh - 50px);
+    max-width: 60vw; */
+    object-fit: cover;
+    height: 300px;
+    width: 300px;    
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.feature > a:hover {
+    opacity: 0.8;
+}
+
+#red {
+    background-color: var(--red);
+}
+
+#purple {
+    background-color: var(--purple);
+}
+
+#green {
+    background-color: var(--green);
+}
+
+#blue {
+    background-color: var(--blue);
+}
+
+.featureDesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.featureTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 28px;
+    color: var(--dark);
+}
