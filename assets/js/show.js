@@ -36,3 +36,20 @@ sketch.addEventListener('click', (e => {
     }
 
 }));
+
+const affinity = document.querySelector("#affinity");
+sketch.addEventListener('click', (e => {
+    e.preventDefault();
+
+    console.log("affinity clicked");
+
+    var target = document.getElementsByClassName('map');
+
+    if (target.style.display === "none") 
+    {
+        target.style.display = "block";
+    } else {
+        target.style.display = "none";
+    }
+
+}));
