@@ -180,3 +180,25 @@ body {
 .sketch {
     display: none;
 }
+
+/* hide nav links mobile */
+@media (max-width: 792px) {
+    .topListItem > a {
+        display: none;
+    }
+}
+
+/* change flex direction desktop */
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* shrink circles mobile */
+@media (max-width: 400px) {
+    .feature > a {
+        height: 150px;
+        width: 150px;
+    }
+}
