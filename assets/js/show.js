@@ -8,5 +8,13 @@ sketch.addEventListener('click', (e => {
 
     console.log("sketch clicked");
 
-    document.getElementsByClassName('sketch').style.display = 'block';
-}))
+    var target = document.getElementsByClassName('sketch');
+
+    if (target.style.display === "none") 
+    {
+        target.style.display = "block";
+    } else {
+        target.style.display = "none";
+    }
+
+}));
