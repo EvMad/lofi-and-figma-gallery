@@ -140,6 +140,15 @@ body {
     opacity: 0.8;
 }
 
+.featureTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 28px;
+    color: var(--dark);
+}
+
+
 #red {
     background-color: var(--red);
 }
@@ -161,13 +170,6 @@ body {
     flex-direction: column;
 }
 
-.featureTitle {
-    text-align: center;
-    margin: 10px;
-    font-family: 'Sawarabi Mincho', serif;
-    font-size: 28px;
-    color: var(--dark);
-}
 
 .map {
     display: none;

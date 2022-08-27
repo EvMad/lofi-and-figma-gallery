@@ -141,3 +141,32 @@ body {
     opacity: 0.8;
 }
 
+.featureTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 28px;
+    color: var(--dark);
+}
+
+#red {
+    background-color: var(--red);
+}
+
+#purple {
+    background-color: var(--purple);
+}
+
+#green {
+    background-color: var(--green);
+}
+
+#blue {
+    background-color: var(--blue);
+}
+
+.featureDesc {
+    display: flex;
+    flex-direction: column;
+}
+
