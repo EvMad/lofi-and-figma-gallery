@@ -11,4 +11,9 @@
 
   .hero h2 {
     font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
   }
