@@ -170,3 +170,14 @@ body {
     flex-direction: column;
 }
 
+.system {
+    display: none;
+}
+
+.mock {
+    display: none;
+}
+
+.proto {
+    display: none;
+}
