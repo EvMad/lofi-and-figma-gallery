@@ -4,6 +4,7 @@
     width:100vw;
     max-height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
   }
