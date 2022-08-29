@@ -21,10 +21,15 @@
 
 .overview {
     color: #0D0D0D;    
-    padding: 20px;
+    
 }
 
 .overview > h3 {
     font-family: 'Sawarabi Mincho', serif;
     text-align: center;
+    padding: 20px;
+}
+
+.overview > p {
+    max-width: 60vw;
 }
