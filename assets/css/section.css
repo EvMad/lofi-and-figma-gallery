@@ -45,3 +45,12 @@
     padding: 20px;
 
 }
+
+.users > p {
+    width: 60vw;
+}
+
+.userName {
+    font-family: 'Sawarabi Mincho', serif;
+    font-weight: 600;
+}
