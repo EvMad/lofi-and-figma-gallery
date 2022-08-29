@@ -70,3 +70,11 @@
 .usability > p {
     width: 60vw;
 }
+
+.images {
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
