@@ -22,8 +22,6 @@
 .overview {
     color: #0D0D0D; 
     
-    
-    
 }
 
 .overview > h3 {
@@ -37,5 +35,13 @@
 }
 
 .users {
-    
+    color: #0D0D0D; 
+}
+
+.users > h3 {
+
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    padding: 20px;
+
 }
