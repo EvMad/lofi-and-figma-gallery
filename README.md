@@ -8,14 +8,18 @@ This repo is a gallery for sketches, wireframes, mockups, digital prototypes, an
 
 ### Screenshots
 
+![case_study](./assets/images/RLoverview.png)
+
 ![mobile](./assets/images/iPhone12Pro.png)
 
 ![tablet](./assets/images/iPad.png)
 
 ![desktop](./assets/images/Desktop.png)
 
+
 ### Screencasts
 
 ![hover](/hover.gif)
 
 ![responsiveness](/responsive.gif)
+
