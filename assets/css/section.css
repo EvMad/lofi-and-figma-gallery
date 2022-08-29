@@ -54,3 +54,19 @@
     font-family: 'Sawarabi Mincho', serif;
     font-weight: 600;
 }
+
+.usability {
+    color: #0D0D0D; 
+}
+
+.usability > h3 {
+
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.usability > p {
+    width: 60vw;
+}
