@@ -71,6 +71,12 @@
     width: 60vw;
 }
 
+.usability > h4 {
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    padding: 10px;
+}
+
 .images {
     max-width: 60vw;
     display: block;
