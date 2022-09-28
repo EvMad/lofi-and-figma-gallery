@@ -2,6 +2,9 @@
 
 Repo to display analog and digital lo-fi designs and prototypes for UX case studies.
 
+[Deployed](https://evmad.github.io/lofi-and-figma-gallery/)
+
+
 ## ABOUT
 
 This repo is a gallery for sketches, wireframes, mockups, digital prototypes, and other analog artifacts.
