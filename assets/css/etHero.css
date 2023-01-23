@@ -1,0 +1,27 @@
+.hero {
+    padding-top: 50px;
+    position: relative;
+    width:100vw;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../images/bookStacks.jpg");
+  }
+
+  
+  .hero h2 {
+    font-family: 'Sawarabi Mincho', serif;
+    color: #0D0D0D;
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
+    color: #0D0D0D;
+  }
+
+  .container {
+    padding: 0px !important;
+  }
